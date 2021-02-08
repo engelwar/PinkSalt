@@ -1,12 +1,3 @@
-* {
-  text-decoration: none;
-  outline: none;
-}
-
 body {
   background-color: #e6e8eb;
-}
-
-.icon {
-  font-family: "WebSymbolsRegular";
 }
