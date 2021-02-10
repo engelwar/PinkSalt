@@ -1,0 +1,66 @@
+@media (max-width: 1250px) {
+    .wrap {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #banner h1 {
+        font-size: 60px;
+        margin: 33px auto;
+    }
+}
+
+@media (max-width: 817px) {
+    #header {
+        width: 100%;
+        height: 160px;
+        padding-top: 10px;
+    }
+    #logo {
+        float: none;
+        margin: 0px auto;
+    }
+    #menu {
+        float: none;
+        width: 497px;
+        margin: -30px auto;
+    }
+}
+
+@media (max-width: 660px) {
+    #articles {
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        min-height: auto;
+    }
+}
+
+@media (max-width: 475px) {
+    #header {
+        width: 100%;
+        height: 180px;
+        padding-top: 10px;
+    }
+    #menu {
+        clear: both;
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+    }
+    #menu ul li i {
+        width: 100%;
+        line-height: 38px;
+    }
+    #menu ul li i:hover {
+        color: #cc53cc;
+        transform: scale(1, 1);
+    }
+    #articles .data {
+        float: none;
+        margin: -10px;
+        border-radius: 0px 0px 0px 0px;
+    }
+    #articles article h4 {
+        margin-top: 20px;
+    }
+}
